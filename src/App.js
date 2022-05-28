@@ -9,20 +9,19 @@
 // import NestedTable from "./Component/NestedTable";
 // import LoginValidation from "./Component/LoginValidation";
 // import LiftingUpState from './Component/LiftingUpState';
-
-import ClassPractise from "./Component/ClassPractise";
-
+import Bootstrap from "./Component/Bootstrap";
+// import ClassPractise from "./Component/ClassPractise";
 // import Frontend from "./Component/Frontend";
 
 function App() {
-  
+
   // function getName(name)
 
   // {
   //   <h1>name</h1>
   //   alert(name)
   // }
-  return(
+  return (
     <div>
       {/* <Nav/>
       <Routes>
@@ -32,7 +31,7 @@ function App() {
             <Route  exact path="/category/w-cosmetics" element={<ProductList key="w-cosmetics" name="w-cosmetics" /> }/>
             <Route  exact path="/category/drapes-wear" element={<ProductList key="drapes-wear" name="drapes-wear" /> }/>
       </Routes> */}
-      
+
       {/* <Todolist1/> */}
       {/* <Calculator/> */}
       {/* <Conditional/> */}
@@ -41,11 +40,15 @@ function App() {
       {/* <NestedTable/> */}
       {/* <LiftingUpState data={getName}/> */}
       {/* <Frontend/> */}
-      <ClassPractise/>
+      {/* <ClassPractise/> */}
+      <Bootstrap/>
+     
+      
+     
 
     </div>
   )
-  
+
 }
 
 export default App;
