@@ -11,7 +11,7 @@ export default function Calculator() {
         setresult('')
     }
     const backspace = () => {
-        setresult(result.slice(0, -1))
+        setresult(result.slice(0,-1))
     }
     
     const output = ()=>{

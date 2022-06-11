@@ -9,9 +9,9 @@
 // import NestedTable from "./Component/NestedTable";
 // import LoginValidation from "./Component/LoginValidation";
 // import LiftingUpState from './Component/LiftingUpState';
-import Bootstrap from "./Component/Bootstrap";
 // import ClassPractise from "./Component/ClassPractise";
 // import Frontend from "./Component/Frontend";
+import CoronaReport from './Component/CoronaReport';
 
 function App() {
 
@@ -41,8 +41,10 @@ function App() {
       {/* <LiftingUpState data={getName}/> */}
       {/* <Frontend/> */}
       {/* <ClassPractise/> */}
-      <Bootstrap/>
-     
+
+      
+     <CoronaReport/>
+
       
      
 
